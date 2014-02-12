@@ -34,7 +34,7 @@ todo.init = function (options) {
 
 };
 
-// Generate HTML elements
+// Add Task
 var generateElement = function(params){
 	var wrapper;
 
@@ -113,4 +113,5 @@ todo.clear = function () {
 	localStorage.setItem("todoData", JSON.stringify(data));
 	$(".todo-task").remove();
 };
+
 
