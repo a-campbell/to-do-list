@@ -108,10 +108,5 @@ todo.add = function() {
 	inputs[2].value = "";
 };
 
-todo.clear = function () {
-	data = {};
-	localStorage.setItem("todoData", JSON.stringify(data));
-	$(".todo-task").remove();
-};
 
 
